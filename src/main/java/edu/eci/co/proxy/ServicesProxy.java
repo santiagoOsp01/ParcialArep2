@@ -8,7 +8,7 @@ import static spark.Spark.*;
 
 public class ServicesProxy {
 
-    private static final String[] servers = new String[]{"http://localhost:7654/lucas?v=", "http://localhost:7654/lucas?v="};
+    private static final String[] servers = new String[]{"http://ec2-3-89-207-251.compute-1.amazonaws.com:7654/lucas?v=", "http://ec2-52-54-107-167.compute-1.amazonaws.com:7654/lucas?v="};
     private static int currentServer = 0;
 
 
