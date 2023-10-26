@@ -9,7 +9,6 @@ import java.net.URL;
 
 public class HttpConnection {
     private static final String USER_AGENT = "Mozilla/5.0";
-    private static final String GET_URL = "https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=fb&apikey=Q1QZFVJQ21K7C6XM";
 
     public static String getValue(String GET_URL) throws IOException {
         URL obj = new URL(GET_URL);
