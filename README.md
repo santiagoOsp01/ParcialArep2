@@ -34,7 +34,7 @@ Para ejecutar el mathService se usa el siguiente comando:
 
 ```
 java -cp "target/classes:target/dependency/*" edu.eci.co.logic.MathServices
-
+```
 #Desplegado
 
 lo probamos localmente y vemos que funciona y como cambia de server pero no nos afecta ya que repetimos el localhost
